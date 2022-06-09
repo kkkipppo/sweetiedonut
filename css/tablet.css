@@ -1,0 +1,162 @@
+@media all and (min-width:768px){
+
+    .tablet{
+        display: block;
+    }
+
+    .bn .mobile{
+        display: none;
+    }
+
+
+    /* main */
+
+    .s1 .mobile{
+        display: none;
+    }
+
+    .s1{
+        margin-top: 48px;
+        display: flex;
+        flex-wrap: wrap;
+        max-width: 1320px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .s1 .item{
+        width: 50%;
+        margin-bottom: 48px;
+    }
+
+    .s1 .txt1, .s1 .txt2{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+
+    .s1 .photo1{
+        order: 0;
+    }
+
+    .s1 .txt1{
+        order: 1;
+        text-align: left;
+    }
+
+    .s1 .txt2{
+        order: 2;
+        text-align: right;
+    }
+
+    .s1 .photo2{
+        order: 3;
+    }
+
+    /* section2 */
+
+    .s2 .con{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+    }
+
+    .s2 .item{
+        width: 48%;
+        box-sizing: border-box;
+    }
+
+    .s2 .btnPlus{
+        margin-top: 24px;
+    }
+
+    /* section3 */
+
+.s3{
+    background-position: unset;
+    text-align: left;
+    padding: 48px 20px;
+}
+
+.s3:after{
+    content: none;
+}
+
+.s3 em{
+    font-style: normal;
+    font-family: 'donut';
+    font-size: 30px;
+}
+
+.s3 h2{
+    font-size: 28px;
+}
+
+.s3 .txt{
+    max-width: 1320px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.s3 .btn{
+    display: flex;
+    max-width: 1320px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.s3 a{
+    width: 120px;
+    margin: 0;
+    text-align: center;
+    margin-top: 12px;
+    margin-right: 12px;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.2);
+}
+
+/* section4 */
+
+.s4 .pc{
+    display: none;
+}
+
+.s4{
+    display: flex;
+    position: relative;
+    max-width: 1320px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 120px;
+}
+
+.s4 .sns{
+    position: absolute;
+    top: 0;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.s4 .franchise{
+    margin-right: 12px;
+}
+
+.s4 .collabo{
+    margin-left: 12px;
+}
+
+/* section5 */
+
+.s5{display: none;}
+
+    /* footer */
+
+    .fWrap{
+        max-width: 1320px;
+        margin-left: auto;
+        margin-right: auto;
+        padding: 0 20px;
+        text-align: left;
+    }
+
+} /* 태블릿 */
